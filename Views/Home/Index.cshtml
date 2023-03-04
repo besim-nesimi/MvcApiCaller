@@ -1,0 +1,7 @@
+﻿@*Glöm inte lägga @model ApiModel, eftersom det är det som ska in i denna sidan.*@
+
+@model ApiModel
+
+@foreach(var user in Model.Users) {
+	<h2>@user.FirstName</h2>
+}
